@@ -13,12 +13,12 @@ yarn add @clurts/use-location
 
 ## __Usage__
 Import the useLocation hook:
-```
+```js
 import useLocation from "@clurts/use-location"
 ```
 
 In your component use as follows: 
-```
+```js
 const [isLocating, position, error] = useLocation()
 ```
 
