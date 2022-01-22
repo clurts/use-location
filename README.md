@@ -27,4 +27,10 @@ __isLocating__: *boolean* - indicates wehter or not your postion is being retrie
 
 __position__: *object* - containing geolocation information
 
+Properties on the position object: 
+| Property | Description |
+| --- | ----------- |
+| lat | Returns the current position latitude |
+| long | Returns the current position longitude |
+
 __error__: *string* - error messages if access to location data is blocked or geolocation is not supported by the browser.
