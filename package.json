@@ -1,0 +1,26 @@
+{
+  "name": "@clurts/use-location",
+  "version": "1.0.0",
+  "description": "custom react hook to use the geolocation api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clurts/use-location.git"
+  },
+  "keywords": [
+    "geolocation",
+    "react"
+  ],
+  "author": "clurts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clurts/use-location/issues"
+  },
+  "homepage": "https://github.com/clurts/use-location#readme",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
