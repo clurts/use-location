@@ -1,6 +1,6 @@
 {
   "name": "@clurts/use-location",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "custom react hook to use the geolocation api",
   "main": "index.js",
   "scripts": {
