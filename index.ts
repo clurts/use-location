@@ -5,13 +5,13 @@ export type Location = {
   long: number | null;
 };
 
-export type UseLocationReturn = [
+export type LocationResult = [
   isLocating: boolean,
   position: Location,
   error: string | null
 ];
 
-const useLocation = (): UseLocationReturn => {
+export const useLocation = (): LocationResult => {
   const [isLocating, setIsLocating] = useState<boolean>(true);
   const [position, setPosition] = useState<Location>({
     lat: null,

@@ -40,9 +40,9 @@ __error__: *string* - error messages if access to location data is blocked or ge
 This package provides full TypeScript type definitions out of the box. When used in TypeScript projects, types are automatically inferred:
 
 ```ts
-import useLocation, { Location, UseLocationReturn } from "@clurts/use-location";
+import useLocation, { Location, LocationResult } from "@clurts/use-location";
 
-const [isLocating, position, error]: UseLocationReturn = useLocation();
+const [isLocating, position, error]: LocationResult = useLocation();
 // position: Location
 ```
 
@@ -53,9 +53,9 @@ const [isLocating, position, error]: UseLocationReturn = useLocation();
     long: number | null;
   };
   ```
-- `UseLocationReturn` type:
+- `LocationResult` type:
   ```ts
-  type UseLocationReturn = [boolean, Location, string | null];
+  type LocationResult = [boolean, Location, string | null];
   ```
 
 No additional configuration is needed. Type definitions are included in the published package.
